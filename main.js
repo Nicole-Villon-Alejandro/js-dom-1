@@ -5,6 +5,7 @@ let element = document.getElementById('lampadina')
 let btn = document.getElementById('btnLampadina')
 
 btn.addEventListener('click', function(){
-    element.scr('./imgs/yellow_lamp.png')
+    console.log( element )
+    element.src = "./img-5/yellow_lamp.png"
 
 })
